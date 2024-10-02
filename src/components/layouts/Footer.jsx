@@ -5,7 +5,7 @@ function Footer() {
     <AppBar position="sticky">
       <Container maxWidth="lg">
         <Toolbar>
-          <Typography component="h5" variant="h4" fontWeight={700} flex={1}>
+          <Typography component="h5" variant="h5" fontWeight={700} flex={1}>
             Blog Project
           </Typography>
           <BookIcon />
