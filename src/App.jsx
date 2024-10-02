@@ -1,7 +1,12 @@
 import IndexLayout from "./components/layouts/IndexLayout";
+import HomePage from "./home/HomePage";
 
 function App() {
-  return <IndexLayout>App</IndexLayout>;
+  return (
+    <IndexLayout>
+      <HomePage />
+    </IndexLayout>
+  );
 }
 
 export default App;
