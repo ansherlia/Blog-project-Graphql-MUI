@@ -5,21 +5,21 @@ import Blogs from "../components/blogs/Blogs";
 function HomePage() {
   return (
     <Container maxWidth="lg">
-      <Grid container padding={3} mt={2} spacing={5}>
-        <Grid item>
+      <Grid container padding={3} mt={2} spacing={3}>
+        <Grid item xs={12} md={3}>
           <Typography
-            fontSize="2.5rem"
+            fontSize="2rem"
             fontWeight={700}
-            variant="h4"
+            variant="h5"
             component="h5"
           >
             Authors
           </Typography>
           <Author />
         </Grid>
-        <Grid item ml="120px">
+        <Grid item xs={12} md={9}>
           <Typography
-            fontSize="2.5rem"
+            fontSize="2rem"
             fontWeight={700}
             variant="h4"
             component="h5"
