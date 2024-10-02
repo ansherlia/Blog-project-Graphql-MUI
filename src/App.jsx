@@ -1,5 +1,7 @@
+import IndexLayout from "./components/layouts/IndexLayout";
+
 function App() {
-  return <div></div>;
+  return <IndexLayout>App</IndexLayout>;
 }
 
 export default App;
