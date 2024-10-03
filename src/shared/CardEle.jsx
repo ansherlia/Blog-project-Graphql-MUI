@@ -12,13 +12,15 @@ import {
 import { Link } from "react-router-dom";
 
 function CardEle(props) {
-  const { author, coverPhoto, slug, title, content } = props;
+  const { author, coverPhoto, slug, title } = props;
   return (
     <Card sx={{ backgroundColor: "#DBDFE5" }}>
-      <CardHeader
-        avatar={<Avatar src={author.avatar.url}></Avatar>}
-        title={author.name}
-      />
+      {author && (
+        <CardHeader
+          avatar={<Avatar src={author.avatar.url}></Avatar>}
+          title={author.name}
+        />
+      )}
       <CardMedia
         component="img"
         image={coverPhoto.url}
