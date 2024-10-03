@@ -3,15 +3,14 @@
   margin: 0;
 }
 body {
-  color: #fff;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 75, 121, 1) 48%,
-    rgba(7, 85, 157, 1) 83%,
-    rgba(9, 76, 123, 1) 100%,
-    rgba(3, 206, 214, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
+  color: #796da7;
+  background-image: linear-gradient(
+    to right top,
+    #c2c9c7,
+    #c9d0cc,
+    #d0d8d0,
+    #dadfd4,
+    #e5e5d8
   );
   font-family: Arial, Helvetica, sans-serif;
 }
