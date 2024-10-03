@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/author/:slug" element={<AuthorPage />} />
         <Route path="/blogs/:slug" element={<BlogsPage />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </IndexLayout>
   );
