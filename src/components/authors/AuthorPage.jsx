@@ -49,7 +49,7 @@ function AuthorPage() {
             <Typography mt={10} fontSize="1.7rem" fontWeight={700}>
               Articels by {data.author.name}
             </Typography>
-            <Grid container textAlign="left" spacing={2} xs={12} mt={2}>
+            <Grid container textAlign="left" spacing={2} mt={2}>
               {data.author.post.map((pos) => (
                 <Grid key={pos.id} item xs={12} md={4}>
                   <CardEle
