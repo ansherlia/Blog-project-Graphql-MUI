@@ -5,13 +5,19 @@ import Blogs from "../components/blogs/Blogs";
 function HomePage() {
   return (
     <Container maxWidth="lg">
-      <Grid container padding={3} mt={2} spacing={3}>
+      <Grid container padding={3} mt={2} spacing={3} minHeight={1000}>
         <Grid item xs={12} md={3}>
           <Typography
             fontSize="2rem"
             fontWeight={700}
-            variant="h5"
+            variant="h4"
             component="h5"
+            border="1px #5887D3 solid"
+            padding={1}
+            borderRadius={3}
+            textAlign="center"
+            fontFamily="Arial"
+            mb={5}
           >
             Authors
           </Typography>
@@ -23,6 +29,12 @@ function HomePage() {
             fontWeight={700}
             variant="h4"
             component="h5"
+            border="1px #5887D3 solid"
+            padding={1}
+            borderRadius={3}
+            textAlign="center"
+            fontFamily="Arial"
+            mb={5}
           >
             Blogs
           </Typography>
