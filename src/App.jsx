@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import IndexLayout from "./components/layouts/IndexLayout";
 import HomePage from "./home/HomePage";
-import PageNotFound from "./components/errors/404";
+import PageNotFound from "./errors/404";
 import AuthorPage from "./components/authors/AuthorPage";
 import BlogsPage from "./components/blogs/BlogsPage";
 
