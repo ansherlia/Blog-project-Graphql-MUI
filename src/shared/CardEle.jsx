@@ -9,6 +9,7 @@ import {
   Divider,
   Typography,
 } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function CardEle(props) {
   const { author, coverPhoto, slug, title, content } = props;
@@ -28,11 +29,13 @@ function CardEle(props) {
         <Typography>{title}</Typography>
       </CardContent>
       <Divider variant="middle" />
-      <CardActions sx={{ padding: "10px" }}>
-        <Button variant="outlined" sx={{ width: "100%", marginTop: "10px" }}>
-          Read document
-        </Button>
-      </CardActions>
+      <Link to={`/blogs/${slug}`} style={{ textDecoration: "none" }}>
+        <CardActions sx={{ padding: "10px" }}>
+          <Button variant="outlined" sx={{ width: "100%", marginTop: "10px" }}>
+            Read document
+          </Button>
+        </CardActions>
+      </Link>
     </Card>
   );
 }
