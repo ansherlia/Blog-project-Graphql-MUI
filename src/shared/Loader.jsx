@@ -9,12 +9,12 @@ function Loader() {
       maxWidth="lg"
       display="flex"
       justifyContent="center"
-    //   my="10px"
+      //   my="10px"
       alignItems="center"
       mx="auto"
       height="400px"
     >
-      <ThreeCircles width="80" height="80" />
+      <ThreeCircles width="80" height="80" color="#1976d3" />
     </Grid>
   );
 }
