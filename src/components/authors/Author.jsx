@@ -3,11 +3,12 @@ import { GET_AUTHORS_INFO } from "../../graphql/queries";
 import { Avatar, Box, Divider, Grid, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import React from "react";
+import Loader from "../../shared/Loader";
 
 function Author() {
   const { loading, data, error } = useQuery(GET_AUTHORS_INFO);
   console.log({ loading, data, error });
-  if (loading) return <h2>Loading...</h2>;
+  if (loading) return <Loader />;
   if (error) return <h2>{error.message}</h2>;
   return (
     <Grid container bgcolor="#DBDFE5" borderRadius={2}>

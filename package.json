@@ -19,9 +19,12 @@
     "graphql": "^16.9.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.26.2",
+    "react-toastify": "^10.0.5",
     "sanitize": "^2.1.2",
-    "sanitize-html": "^2.13.0"
+    "sanitize-html": "^2.13.0",
+    "toastify": "^2.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
